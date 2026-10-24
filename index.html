@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Patitas Felices, clínica veterinaria. Cuidamos a tus mascotas con amor, confianza y profesionalismo.">
+    <title>Patitas Felices | Clínica Veterinaria</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- ENCABEZADO -->
+    <header class="encabezado">
+        <a href="#inicio" class="logo">
+            🐾 Patitas <span>Felices</span>
+        </a>
+
+        <button class="menu-toggle" id="menuToggle"
+                aria-label="Abrir menú" aria-expanded="false">
+            ☰
+        </button>
+
+        <nav class="navegacion" id="navegacion">
+            <a href="#inicio">Inicio</a>
+            <a href="#servicios">Servicios</a>
+            <a href="#equipo">Nuestro equipo</a>
+            <a href="#galeria">Galería</a>
+            <a href="#contacto" class="boton-nav">Contáctanos</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- INICIO / BANNER PRINCIPAL -->
+        <section class="hero" id="inicio">
+            <div class="hero-contenido">
+                <span class="etiqueta">💚 Amor y cuidado para tus mascotas</span>
+
+                <h1>Su bienestar es nuestra mayor <span>felicidad.</span></h1>
+
+                <p>
+                    En Patitas Felices cuidamos a tus compañeros de vida
+                    con cariño, dedicación y atención veterinaria profesional.
+                    ¡Ellos merecen lo mejor!
+                </p>
+
+                <div class="hero-botones">
+                   <a href="https://wa.me/573104428485?text=Hola%2C%20quiero%20agendar%20una%20cita%20para%20mi%20mascota."
+   class="boton boton-principal"
+   target="_blank"
+   rel="noopener noreferrer">
+    Agenda tu cita por WhatsApp 💬
+</a>
+</a>
+                    <a href="#servicios" class="boton boton-secundario">
+                        Conoce nuestros servicios
+                    </a>
+                </div>
+
+                <div class="confianza">
+                    <span>🐶 Atención cariñosa</span>
+                    <span>🐱 Cuidado profesional</span>
+                </div>
+            </div>
+
+            <div class="hero-imagen">
+                <img
+                    src="https://images.unsplash.com/photo-1543466835-00a7907e9de1?auto=format&fit=crop&w=900&q=85"
+                    alt="Perro feliz recibiendo cuidados">
+                <div class="mensaje-flotante">
+                    <span class="corazon">♥</span>
+                    <div>
+                        <strong>Amor en cada consulta</strong>
+                        <p>Su salud es nuestra prioridad</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SERVICIOS -->
+        <section class="seccion servicios" id="servicios">
+            <div class="titulo-seccion">
+                <span class="etiqueta">¿Cómo podemos ayudarte?</span>
+                <h2>Servicios para cuidar sus <span>patitas</span></h2>
+                <p>Todo lo que necesitan para crecer sanos, felices y llenos de energía.</p>
+            </div>
+
+            <div class="servicios-grid">
+                <article class="tarjeta-servicio">
+                    <div class="icono-servicio">🩺</div>
+                    <h3>Consulta general</h3>
+                    <p>Revisiones, diagnósticos y orientación para mantener su salud.</p>
+                </article>
+
+                <article class="tarjeta-servicio">
+                    <div class="icono-servicio">💉</div>
+                    <h3>Vacunación</h3>
+                    <p>Protección preventiva y seguimiento de su esquema de vacunas.</p>
+                </article>
+
+                <article class="tarjeta-servicio">
+                    <div class="icono-servicio">🛁</div>
+                    <h3>Peluquería</h3>
+                    <p>Baño, cepillado y cuidado de su pelaje con mucho cariño.</p>
+                </article>
+
+                <article class="tarjeta-servicio">
+                    <div class="icono-servicio">🏥</div>
+                    <h3>Cirugía</h3>
+                    <p>Procedimientos quirúrgicos con valoración y seguimiento veterinario.</p>
+                </article>
+
+                <article class="tarjeta-servicio">
+                    <div class="icono-servicio">🚑</div>
+                    <h3>Emergencias</h3>
+                    <p>Orientación para actuar ante situaciones que requieren atención urgente.</p>
+                </article>
+            </div>
+
+            <p class="nota-servicios">
+                La atención de emergencias depende de la disponibilidad de la clínica.
+                Contáctanos antes de desplazarte.
+            </p>
+        </section>
+
+        <!-- EQUIPO MÉDICO -->
+        <section class="seccion equipo" id="equipo">
+            <div class="titulo-seccion">
+                <span class="etiqueta">Personas que aman a los animales</span>
+                <h2>Conoce a nuestro <span>equipo médico</span></h2>
+                <p>Un equipo comprometido con el cuidado y la tranquilidad de tu familia.</p>
+            </div>
+
+            <div class="equipo-grid">
+                <article class="tarjeta-equipo">
+                    <img
+                        src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&w=600&q=80"
+                        alt="Fotografía ilustrativa de una profesional de salud">
+                    <div class="equipo-info">
+                        <h3>Dra. Laura Martínez</h3>
+                        <p class="especialidad">Medicina veterinaria general</p>
+                        <p>Atención preventiva y consultas para perros y gatos.</p>
+                    </div>
+                </article>
+
+                <article class="tarjeta-equipo">
+                    <img
+                        src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?auto=format&fit=crop&w=600&q=80"
+                        alt="Fotografía ilustrativa de un profesional de salud">
+                    <div class="equipo-info">
+                        <h3>Dr. Andrés Rodríguez</h3>
+                        <p class="especialidad">Cirugía veterinaria</p>
+                        <p>Valoración quirúrgica y seguimiento de los pacientes.</p>
+                    </div>
+                </article>
+
+                <article class="tarjeta-equipo">
+                    <img
+                        src="https://images.unsplash.com/photo-1594824476967-48c8b964273f?auto=format&fit=crop&w=600&q=80"
+                        alt="Fotografía ilustrativa de una profesional">
+                    <div class="equipo-info">
+                        <h3>Dra. Camila Torres</h3>
+                        <p class="especialidad">Medicina preventiva</p>
+                        <p>Orientación en vacunación, prevención y bienestar animal.</p>
+                    </div>
+                </article>
+            </div>
+
+            <p class="aviso-demo">
+                Nota: los nombres y perfiles del equipo son ejemplos para el diseño.
+                Reemplázalos por los datos reales de la clínica.
+            </p>
+        </section>
+
+        <!-- GALERÍA DE MASCOTAS -->
+        <section class="seccion galeria-seccion" id="galeria">
+            <div class="titulo-seccion">
+                <span class="etiqueta">Pequeños pacientes, grandes amores</span>
+                <h2>Galería de nuestros <span>amigos peludos</span></h2>
+                <p>Descubre algunas imágenes de mascotas que inspiran nuestro trabajo diario.</p>
+            </div>
+
+            <div class="galeria-grid">
+                <button class="foto-galeria" data-indice="0"
+                        aria-label="Ampliar imagen de perro">
+                    <img src="https://images.unsplash.com/photo-1552053831-71594a27632d?auto=format&fit=crop&w=700&q=80"
+                         alt="Perro de pelaje dorado">
+                    <span>Ver imagen ⤢</span>
+                </button>
+
+                <button class="foto-galeria" data-indice="1"
+                        aria-label="Ampliar imagen de gato">
+                    <img src="https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?auto=format&fit=crop&w=700&q=80"
+                         alt="Gato mirando a la cámara">
+                    <span>Ver imagen ⤢</span>
+                </button>
+
+                <button class="foto-galeria" data-indice="2"
+                        aria-label="Ampliar imagen de cachorro">
+                    <img src="https://images.unsplash.com/photo-1551717743-49959800b1f6?auto=format&fit=crop&w=700&q=80"
+                         alt="Perro pequeño">
+                    <span>Ver imagen ⤢</span>
+                </button>
+
+                <button class="foto-galeria" data-indice="3"
+                        aria-label="Ampliar imagen de gato pequeño">
+                    <img src="https://images.unsplash.com/photo-1573865526739-10659fec78a5?auto=format&fit=crop&w=700&q=80"
+                         alt="Gato de compañía">
+                    <span>Ver imagen ⤢</span>
+                </button>
+
+                <button class="foto-galeria" data-indice="4"
+                        aria-label="Ampliar imagen de perro">
+                    <img src="https://images.unsplash.com/photo-1507146426996-ef05306b995a?auto=format&fit=crop&w=700&q=80"
+                         alt="Perro disfrutando al aire libre">
+                    <span>Ver imagen ⤢</span>
+                </button>
+
+                <button class="foto-galeria" data-indice="5"
+                        aria-label="Ampliar imagen de gato">
+                    <img src="https://images.unsplash.com/photo-1495360010541-f48722b34f7d?auto=format&fit=crop&w=700&q=80"
+                         alt="Gato descansando">
+                    <span>Ver imagen ⤢</span>
+                </button>
+
+                <button class="foto-galeria" data-indice="6"
+                        aria-label="Ampliar imagen de cachorro">
+                    <img src="https://images.unsplash.com/photo-1517849845537-4d257902454a?auto=format&fit=crop&w=700&q=80"
+                         alt="Perro de compañía">
+                    <span>Ver imagen ⤢</span>
+                </button>
+
+                <button class="foto-galeria" data-indice="7"
+                        aria-label="Ampliar imagen de mascota">
+                    <img src="https://images.unsplash.com/photo-1543852786-1cf6624b9987?auto=format&fit=crop&w=700&q=80"
+                         alt="Gato adorable">
+                    <span>Ver imagen ⤢</span>
+                </button>
+            </div>
+        </section>
+<!-- UBICACIÓN DE LA CLÍNICA -->
+<section class="seccion ubicacion" id="ubicacion">
+
+    <div class="titulo-seccion">
+        <span class="etiqueta">📍 Estamos cerca de ti</span>
+        <h2>Encuéntranos en <span>Patitas Felices</span></h2>
+        <p>Queremos estar cerca de ti y de tus mejores amigos.</p>
+    </div>
+
+    <div class="ubicacion-contenido">
+
+        <div class="ubicacion-info">
+            <div class="ubicacion-icono">📍</div>
+
+            <h3>Nuestra ubicación</h3>
+
+            <p>
+                <strong>Patitas Felices</strong><br>
+                Canalete, Córdoba, Colombia
+            </p>
+
+            <a
+                href="https://www.google.com/maps/search/?api=1&query=Canalete%2C+C%C3%B3rdoba%2C+Colombia"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="boton boton-principal">
+                Cómo llegar 📍
+            </a>
+        </div>
+
+        <div class="mapa">
+            <iframe
+                src="https://maps.google.com/maps?q=Canalete%2C%20C%C3%B3rdoba%2C%20Colombia&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                width="100%"
+                height="350"
+                style="border:0;"
+                loading="lazy"
+                allowfullscreen
+                referrerpolicy="no-referrer-when-downgrade"
+                title="Mapa de Canalete, Córdoba">
+            </iframe>
+        </div>
+
+    </div>
+
+</section>
+       
+        <!-- CONTACTO -->
+        <section class="seccion contacto" id="contacto">
+            <div class="contacto-texto">
+                <span class="etiqueta">Estamos aquí para ayudarte</span>
+                <h2>¡Tu mascota merece una vida <span>feliz y saludable!</span></h2>
+                <p>
+                    ¿Tienes preguntas sobre nuestros servicios o deseas solicitar
+                    una cita? Déjanos tus datos y cuéntanos cómo podemos ayudarte.
+                </p>
+                <div class="contacto-detalle">
+                    <span>🐾</span>
+                    <p>Atención cercana y respetuosa para cada mascota.</p>
+                </div>
+                <div class="contacto-detalle">
+                    <span>💚</span>
+                    <p>Orientación para cuidar de quienes más quieres.</p>
+                </div>
+            </div>
+
+            <form class="formulario" id="formularioContacto">
+                <h3>Solicita información</h3>
+
+                <label for="nombre">Tu nombre</label>
+                <input type="text" id="nombre" name="nombre"
+                       placeholder="Escribe tu nombre" required>
+
+                <label for="mascota">Nombre de tu mascota</label>
+                <input type="text" id="mascota" name="mascota"
+                       placeholder="¿Cómo se llama?" required>
+
+                <label for="servicio">Servicio de interés</label>
+                <select id="servicio" name="servicio" required>
+                    <option value="">Selecciona un servicio</option>
+                    <option>Consulta general</option>
+                    <option>Vacunación</option>
+                    <option>Peluquería</option>
+                    <option>Cirugía</option>
+                    <option>Emergencias</option>
+                    <option>Otra consulta</option>
+                </select>
+
+                <label for="mensaje">¿En qué podemos ayudarte?</label>
+                <textarea id="mensaje" name="mensaje" rows="4"
+                          placeholder="Escribe tu consulta..." required></textarea>
+
+                <button type="submit" class="boton boton-principal boton-formulario">
+                    Enviar solicitud →
+                </button>
+
+                <p id="respuestaFormulario" class="respuesta-formulario"
+                   aria-live="polite"></p>
+            </form>
+        </section>
+    </main>
+
+    <!-- VENTANA LIGHTBOX -->
+    <div class="lightbox" id="lightbox" aria-hidden="true">
+        <button class="cerrar-lightbox" id="cerrarLightbox"
+                aria-label="Cerrar imagen">✕</button>
+        <button class="anterior-lightbox" id="anteriorLightbox"
+                aria-label="Imagen anterior">❮</button>
+
+        <figure>
+            <img src="" alt="" id="imagenAmpliada">
+            <figcaption id="textoImagen"></figcaption>
+        </figure>
+
+        <button class="siguiente-lightbox" id="siguienteLightbox"
+                aria-label="Imagen siguiente">❯</button>
+    </div>
+
+    <!-- PIE DE PÁGINA -->
+    <footer class="pie-pagina">
+        <a href="#inicio" class="logo logo-footer">🐾 Patitas <span>Felices</span></a>
+        <p>Cuidamos sus patitas, conquistamos sus corazones. 💚</p>
+        <p class="copyright">
+            © <span id="anio"></span> Patitas Felices. Todos los derechos reservados.
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
